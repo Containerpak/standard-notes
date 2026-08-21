@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:c994538e05aee29daf2e6dcebafb5a5d36d7b7a0ad746fd49abd75586e791959 https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.21/standard-notes-3.201.21-linux-amd64.deb /tmp/source
+ADD --checksum=sha256:b51d6895ccef371a61b68996ddefeb6fe107a65f95c71490c610cd9349d3d1cb https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.0/standard-notes-3.202.0-linux-amd64.deb /tmp/source
 
 FROM ghcr.io/containerpak/gtk3:main
 
