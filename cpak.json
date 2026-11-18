@@ -4,7 +4,7 @@
   "name": "Standard Notes",
   "description": "Write and sync encrypted notes.",
   "version": "3.202.0",
-  "image": "ghcr.io/containerpak/standard-notes@sha256:f1d95c5c2112651c002372a3f365786bf9886b2f1b0741b48aaf3ef5fc50064b",
+  "image": "ghcr.io/containerpak/standard-notes@sha256:5f6a98c3091e924a38eccfb8a81dd4f83431d49051eb7a50077e938052ab172c",
   "binaries": [
     "/usr/bin/standard-notes"
   ],
